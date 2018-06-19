@@ -2,10 +2,10 @@
   "name": "friendfinder",
   "version": "1.0.0",
   "description": "friend finder unh app",
-  "main": "apiRoutes.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": ["apiRoutes.js", "htmlRoutes.js"]
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
